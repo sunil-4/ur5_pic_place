@@ -9,7 +9,7 @@ sudo find ~/mycobot_pick_place_ws -type f -exec chmod 644 {} +
 
 chmod 755 \
   ~/mycobot_pick_place_ws/src/mycobot_pick_place_sim/scripts/pick_place_sequence.py
-  -------------------------------------------------
+  ---------------------------------------------------
   source /opt/ros/jazzy/setup.bash
 rosdep install --from-paths src --ignore-src --rosdistro jazzy -r -y
 
